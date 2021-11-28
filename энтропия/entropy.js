@@ -26,6 +26,4 @@ if (sum>1){
 		entropy-=(alph[i])*(Math.log(alph[i]));
 	entropy/=Math.log(sum);
 }
-else
-	entropy=0
 console.log(entropy)
